@@ -1,0 +1,8 @@
+/* Universal selector*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    background-color: ;#E5E5E5
+}
