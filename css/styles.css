@@ -6,9 +6,12 @@
 }
 ul {
     list-style: none;
+    text-decoration: none;
 }
 .container {
-    background-color: #E5E5E5;
+    background-color: #ffffff;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 a {
