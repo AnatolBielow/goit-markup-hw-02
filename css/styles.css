@@ -100,17 +100,18 @@ a {
 .about .container {
     background-color: var(--background-about-color);
     height: 600px;
-
 }
-.hero-content {
 
-    width: 650px;
+.hero-content {
+    width: 550px;
     font-size: 44px;
     font-weight: 900;
+
     color: var(--while-color);
-    display: flex;
-    justify-content: space-between;
-}
+    text-align: center;
+    margin: auto;
+    padding-top: 195px;
+} 
 .skill {
     width: 270px;
     line-height: 1.714;
