@@ -12,7 +12,7 @@
 }
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -31,9 +31,36 @@ a {
     text-decoration: none;
     display: inline-block;
 }
-
-.container {
+ .header {
     width: 1600px;
+    background-color: var(--while-color);
+    color: var(--header-color);
+    font-weight: 500;
+    font-size: 14px;
+ }
+ .hero {
+    width: 1600px;   
+    height: 600px;
+    background-color: var(--background-about-color);
+ }
+ .about-us {
+    width: 1600px;
+ }
+ .studio {
+    width: 1600px;
+ }
+ .team {
+    width: 1600px;
+    font-size: 16px;
+ }
+ .footer {
+    width: 1600px;
+    background-color: var(--header-color);
+    box-sizing: border-box;
+    height: 250px;
+ }
+.container {
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -58,7 +85,7 @@ a {
     color: var(--while-color);
 }
 
-.title-1 {
+.title-about-us {
     color: transparent;
     font-size: 0;
 }
@@ -91,24 +118,16 @@ a {
  {
     color: var(--pretty-color);
 }
-.header {
-    background-color: var(--while-color);
-    color: var(--header-color);
-    font-weight: 500;
-    font-size: 14px;
-}
-.about .container {
-    background-color: var(--background-about-color);
-    height: 600px;
-}
 
-.hero-content {
-    width: 550px;
+
+
+
+.title-hero {
+    
     font-size: 44px;
     font-weight: 900;
 
     color: var(--while-color);
-    text-align: center;
     margin: auto;
     padding-top: 195px;
 } 
@@ -116,14 +135,7 @@ a {
     width: 270px;
     line-height: 1.714;
 }
-.team {
-    font-size: 16px;
-}
-.footer .container {
-    background-color: var(--header-color);
-    box-sizing: border-box;
-    height: 250px;
-}
+
 .adress {
     color:var(--while-color);
     font-style: normal;
