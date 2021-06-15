@@ -13,6 +13,7 @@
     --black-color: #000000;
     --button-color: #F5F4FA;
     --button-hover: #188CE8;
+    --body-color: #E5E5E5;
 
 
 }
@@ -34,12 +35,14 @@ html {
 body {
     font-family: var(--main-font);
     text-decoration: none;
+    background-color:var(--body-color) ;
     color: var(--text-color);
 }
 header,
 section,
 footer {
     width: 1600px;
+    background-color: var(--while-color);
 }
 ul {
     list-style: none; 
@@ -208,7 +211,6 @@ a {
 /*--------Portfolio-----------*/
 
 .portfolio {
-    width: 1200px;
     font-size: 16px;
     color: var(--text-color);
     line-height: 1.875;
