@@ -63,13 +63,13 @@ a {
     font-weight: 500;
     font-size: 14px;
     border-bottom-style: solid;
-    border-color: var(--border-color);
+    border-color: var(--border-color) 1px;
 
 }
 
 /*---Logo---*/
 .logo {
-    margin: 0 auto;
+    margin: 0;
     font-family: var(--logo-font);
     font-size: 26px;
     font-weight: 700;
@@ -88,23 +88,6 @@ a {
 }
 /*---Logo---*/
 
-
-header a {
-    display: inline-block;
-}
-.nav-list {
-    display: flex;
-}
-.contacts {
-    display: flex;
-}
-header .container {
-    display: flex;
-}
-.menu {
-
-    display: flex;
-}
 .nav-list a:hover,
 .nav-list a:focus,
 .contacts a:hover,
