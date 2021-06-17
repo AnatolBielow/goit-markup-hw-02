@@ -62,8 +62,8 @@ a {
     color: var(--header-color);
     font-weight: 500;
     font-size: 14px;
-    border-bottom-color: var(--border-color);
-    border-bottom-style: solid;
+    border-bottom: solid 1px var(--border-color);
+
 }
 
 /*---Logo---*/
